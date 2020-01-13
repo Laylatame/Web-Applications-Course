@@ -1,0 +1,14 @@
+{
+  "name": "endpoints",
+  "version": "1.0.0",
+  "description": "This is a practice for endpoints",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Layla Tame",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

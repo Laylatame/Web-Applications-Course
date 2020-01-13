@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    color: black;
+}
+h1{
+    padding: 20px;
+    margin: 10px 10px 0px 10px;
+    color: white;
+    background-color: #4F545F;
+    text-align: center;
+}
+address{
+    padding: 10px;
+    margin: 10px 10px;
+    color: white;
+    background-color: #b0b0b0;/*#707785;*/
+    text-align: center;
+}
+main{
+    margin: 30px;
+    border-style: dotted;
+}
+.type1{
+    margin: 30px;
+    padding: 0px;
+    border-style: dotted;
+}
+.type2{
+    background-color: lightblue;
+    padding: 8px;
+    margin: 30px;
+}
+.title{
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: #55B3C5;
+    color: white;
+}
+.title2{
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: white;
+    color: #55B3C5;
+}
+.title3{
+    color: white;
+    padding: 0px 30px;
+}
+p{
+    padding: 0px 25px;
+    margin: 5px 10px;
+}
+#listaLeng{
+    margin: 10px 30px;
+    padding: 0px 20px;
+}
+.contactInfo{
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: white;
+    color: #55B3C5;
+    text-align: center;
+}
+#socialMedia{
+    border-style: outset;
+    list-style: none;
+    padding: 10px;
+    margin: 0px 30px 30px 30px;
+    display:flex;
+    justify-content: space-evenly;
+}
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #4F545F;
+}

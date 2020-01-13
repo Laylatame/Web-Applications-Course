@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif
+  }
+
+  body {
+    min-width: 250px;
+    max-width: 960px;
+    padding: 20px 40px;
+  }
+
+
+  .listItem{
+    margin: 10px;
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+    color: gray;
+    font-style: italic;
+    list-style: none;
+    text-align: left;
+    border: 1px solid grey;
+  }
+
+  .crossItem{
+    margin: 10px;
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+    color: gray;
+    font-style: italic;
+    list-style: none;
+    text-align: left;
+    border: 1px solid grey;
+    text-decoration: line-through;
+  }
+
+  .checkButton, .deleteButton {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 15px;
+  }

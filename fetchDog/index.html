@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <title>Fetch Dog</title>
+        <link href="css/index.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <form id="dogForm">
+        <label for="searchDog"> Breed: </label>
+        <input id="searchDog" name="searchDog" type="text" required/><br><br>
+        <label for="numImgs"> No. Images: </label>
+        <input id="numImgs" name="numImgs" type="number" required />
+        <button type="submit">Submit</button>
+    </form>
+    <section class="results">
+        <ul id="dogImages">
+        </ul>
+    </section>
+
+    <body>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+    </html>

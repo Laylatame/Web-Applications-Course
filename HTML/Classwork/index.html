@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="./css/main.css" rel="stylesheet" type="text/css" /> <!--Si esta dentro de una carpeta "./css/main.css"-->
+        <title>
+            Styles
+        </title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1>
+            Registry Form
+        </h1>
+        <ul>
+            <li>Home</li>
+            <li>About the site</li>
+            <li>Registry</li>
+            <li>Contact</li>
+            <li>Copyright</li>
+        </ul>
+        <form>
+            <fieldset>
+                <legend>
+                    New account registry
+                </legend>
+                <p>
+                    Your information is safe with us.
+                </p>
+                <br><br>
+                <label for="completeName">Complete Name </label>
+                <br>
+                    <input type="text" id="completeName"/>
+                <br><br>
+                <label for="email">Email</label>
+                <br>
+                    <input type="email" id="email"/>
+                <br><br>
+                <label for="password">Password</label>
+                <br>
+                    <input type="password" id="password"/>
+                <br><br>
+                <label for="passwordConf">Password Confirmation</label>
+                <br>
+                    <input type="password" id="passwordConf"/>
+                <br>
+                <p>Country</p>
+                <select>
+                    <option value="MX">
+                        Mexico
+                    </option>
+                    <option value="FR">
+                        France
+                    </option>
+                    <option value="GR">
+                        Germany
+                    </option>
+                    <option value="US">
+                        United States
+                    </option>
+                    <option value="UK">
+                        United Kingdom
+                    </option>
+                </select>
+                <br><br>
+                <input id="masc" type="radio" name="sexID"/>
+                    <label for="masc">Masculine</label>
+                <br><br>
+                <input id="fem" type="radio" name="sexID"/>
+                    <label for="fem">Feminine</label>
+                <br><br>
+                <button type="reset">Cancel</button>
+                <input type="submit" value="Submit">
+                <br><br>
+            </fieldset>
+        </form>
+    </body>
